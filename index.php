@@ -1,3 +1,13 @@
+<?php
+
+require './Models/Prodotti.php';
+
+$nuovoProdotto = new Prodotto("Letto", 15, "Cucce per cani", 1);
+
+var_dump($nuovoProdotto);
+
+?>
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
