@@ -6,7 +6,7 @@ class Prodotto {
     public $categoria;
     public $id;
 
-    function __construct($nome, $prezzo, $categoria, $id)
+    function __construct($nome, $prezzo, Categoria $categoria, $id)
     {
         $this->nome = $nome;
         $this->prezzo = $prezzo;
